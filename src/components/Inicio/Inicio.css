@@ -1,0 +1,27 @@
+/* src/components/Inicio/Inicio.css */
+
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* Espacio entre el título y el contenedor de botones */
+}
+
+.botones-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Espacio entre los botones */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo para los botones */
+}
+
+.boton-grande {
+  /* Hacemos que el botón sea más grande */
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  
+  /* Estilos adicionales para que se vea bien */
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no incremente el ancho total */
+}
